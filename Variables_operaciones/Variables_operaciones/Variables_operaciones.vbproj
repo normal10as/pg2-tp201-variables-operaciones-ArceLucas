@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7E5C98DF-CE07-4127-910D-F232DFDF8F7A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Variables_operaciones.variables</StartupObject>
+    <StartupObject>Variables_operaciones.Eje1_14</StartupObject>
     <RootNamespace>Variables_operaciones</RootNamespace>
     <AssemblyName>Variables_operaciones</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,6 +68,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="aritmetica.vb" />
+    <Compile Include="concatenacion.vb" />
+    <Compile Include="Eje1_11.vb" />
+    <Compile Include="Eje1_12.vb" />
+    <Compile Include="Eje1_13.vb" />
+    <Compile Include="Eje1_14.vb" />
+    <Compile Include="Eje1_6.vb" />
+    <Compile Include="Eje1_7.vb" />
+    <Compile Include="Eje1_9.vb" />
+    <Compile Include="Semanas.vb" />
     <Compile Include="variables.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

@@ -1,13 +1,15 @@
 ﻿Module variables
 
-    Sub Main()
+    Public nombre As String
 
-        Dim nombre As String
-        Dim tipo_documento As String
-        Dim numero_documento As Integer
+    Friend tipo_documento As String
+    Friend numero_documento As Integer
+    Friend fecha_nacimiento As Date
+
+    Private edad As Byte
+
+    Sub Main()
         Dim localidad As String
-        Dim fecha_nacimiento As Date
-        Dim edad As Byte
         Dim altura_corporal As Single
         Dim estado_civil As String
         Dim es_argentino As Boolean
@@ -38,7 +40,7 @@
         Console.Write("Es argentino? TRUE or FALSE: ")
         es_argentino = Console.ReadLine()
 
-        Console.WriteLine("\nNombre: " & nombre)
+        Console.WriteLine("Nombre: " & nombre)
         Console.WriteLine("Tipo de documento: " & tipo_documento)
         Console.WriteLine("Numero de documento: " & numero_documento)
         Console.WriteLine("Localidad: " & localidad)
